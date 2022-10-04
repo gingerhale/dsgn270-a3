@@ -1,0 +1,35 @@
+body{
+  /* box-model */
+  width: 100%;
+  max-height: 100vh;
+
+/* flexbox */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+}
+
+svg, img{
+  /* width */
+  max-width: 50%;
+  max-width: 550px;
+
+  /* flexbox */
+  flex: auto;
+
+  /* box model */
+  padding: 1rem;
+}
+
+/* shapes */
+.abstract-shape , .top-circ , .small-left-circ , .small-right-circ , .big-right-circ {
+  /* Shape oulines */
+  stroke: rgb(255, 255, 0);
+}
+/* logo text  */
+.text1 , .text2 , .text3 , .text4 , .text5{
+/* typeface colours */ 
+fill: rgb(255, 255, 0);
+}
+
